@@ -1,0 +1,16 @@
+.choose-peoduct{
+    background-color: aquamarine;
+}
+
+.texts{
+    text-align: left;
+    margin-top: 80px;
+}
+
+.Why-ChooseUs-bg {
+    /* background-image: url('https://i.ibb.co/fQ8BTpj/cloudx2.png'); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* width:1300px; */
+    /* height:500px; */
+}

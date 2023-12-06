@@ -1,0 +1,16 @@
+.googles:hover{
+    /* background-color: #1289A7; */
+    background-color:  #7E2231;
+    color:white;
+}
+
+.google-icon:hover{
+    color:white;
+}
+
+.signin-background{
+    background-color: #032831;
+    /* background-color: #182533; */
+    /* width:100%; */
+    height:140vh; 
+}

@@ -1,0 +1,50 @@
+.valuesPicture img{
+    height:500px;
+}
+.banner{
+    margin:8px;
+    padding:15px;
+    font-size: 18px;
+    background-color:salmon;
+    border-radius: 5px;
+    border:white;
+  }
+
+  /* ----------------------  */
+  .mouses{
+    /* grid-template-columns: repeat(3,1fr); */
+    display: flex;
+   }
+   
+   .keys{
+       background-color:darkcyan;
+       margin-top: -14px;
+   }
+   
+   .mouses i{
+       color:white;
+       font-size: 35px;
+   }
+   /* .laptops i{
+       color:white;
+       font-size: 25px;
+   } */
+   .dell{
+       background-color: darkcyan;
+       color:white;
+       /* padding:7px; */
+   }
+   .dells{
+       background-color: #1f2833;
+       color:white;
+       /* padding:7px; */
+   }
+   /* 1f2833 */
+   .stand-bg{
+       background-color:floralwhite;
+      
+       margin-bottom: 70px;
+   }
+   .dones{
+       color:white;
+   }

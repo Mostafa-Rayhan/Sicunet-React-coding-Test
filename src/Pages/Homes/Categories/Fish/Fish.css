@@ -1,0 +1,261 @@
+.buttons{
+    margin-top: 5px;
+}
+.btn-style {
+    outline: none;
+    background-color: #1289A7;
+    border: 2px solid transparent;
+    color: white;
+    padding: 4px 20px;
+    font-weight: 600;
+    transition: all .5s;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+.card-body{
+    text-align: left;
+}
+/* .btn-style:hover{
+    background-color: white;
+    color: #1289A7;
+    border: 2px solid #1289A7;
+} */
+.btn-style.download-btn{
+    /* background-color: white; */
+    /* color: #1289A7; */
+    /* background-color: #2B5278; */
+    background-color: #D0425C;
+    /* border: 2px solid white; */
+    color:white;
+}
+/* .btn-style.download-btn:hover{
+    background-color: #1289A7;
+    background-color: #0E1621;
+    color: white;
+    border: 2px solid transparent;
+} */
+/* .btn-style.btn-style.download-btn a{
+    color: #1289A7;
+    color:white;
+    transition: all .5s;
+    
+} */
+/* .btn-style.btn-style.download-btn:hover a{
+    color: white;
+} */
+.card-body h5{
+    font-size: 13px;
+}
+
+.card-body h4{
+    font-size: 24px;
+}
+
+.download-btn{
+    text-decoration: none;
+}
+/* form search  */
+.search-box{
+    position: relative;
+}
+.search-design input{
+    height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid #1289A7;
+    border-radius: 30px;
+    margin:5px
+
+}
+
+.search-design button{
+    /* background: #2B5278; */
+    background: #D0425C;
+    color: white;
+    padding: 8px 25px;
+    border-radius: 30px;
+    font-weight: 600;
+    border:1px solid white;
+
+}
+.search-box input {
+    width: 100%;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 100px;
+    border: 1px solid #1289A7;
+    border-radius: 30px;
+}
+.search-box input:focus{
+    outline: none;
+}
+.search-box button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    outline: none;
+    border: none;
+    /* background: #2B5278; */
+    background: #D0425C;
+    color: white;
+    padding: 8px 25px;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.search-box button:hover{
+    background-color:#1289A7;
+}
+
+
+/* pagination */
+.page-item .page-link{
+    color: #1289A7;
+    background-color: white;
+    border-color: #1289A7;
+}
+.page-item.active .page-link{
+    color: #fff;
+    background-color: #1289A7;
+    border-color: #1289A7;
+}
+
+
+.brands{
+    text-align: left;
+}
+
+/* .all{
+    margin-left: 10px;
+} */
+@media (max-width:393px) {
+    .all {
+        margin-left: 10px;
+    }
+
+    
+}
+
+/* @media (max-width:760px) {
+    .all {
+        margin-left: -170px;
+    }
+
+    
+} */
+
+@media (max-width:768px) {
+    .details-show {
+        margin-left: 110px;
+    }
+    .photoShops img{
+        height:200px;
+        width:380px;
+    }
+
+    
+}
+@media (max-width:1000px) {
+    .details-show {
+        margin-left: 10px;
+    }
+    .photoShops img{
+        height:220px;
+        width:370px;
+    }
+
+    
+}
+@media (max-width:1024px) {
+    .details-show {
+        margin-left: 5px;
+    }
+    .photoShops img{
+        height:220px;
+        width:200px;
+    }
+
+    
+}
+@media (max-width:912px) {
+    .details-show {
+        /* margin-left: 5px; */
+    }
+    .photoShops img{
+        height:220px;
+        width:180px;
+    }
+
+    
+}
+@media (max-width:540px) {
+    .details-show {
+        /* margin-left: 60px; */
+    }
+    .photoShops img{
+        height:220px;
+        width:330px;
+    }
+
+    
+}
+@media (max-width:360px) {
+    .details-show {
+        margin-left: 60px;
+    }
+    .photoShops img{
+        height:220px;
+        width:310px;
+    }
+
+    
+}
+
+
+@media only screen and  (min-width:1824px) {
+    
+
+    .photoalbum img{
+        width:295px !important;
+    }
+
+    .downpart{
+        margin-left: 46px !important;
+      }
+    
+}
+@media only screen and  (min-width:1624px) {
+    
+
+    .photoalbum img{
+        width:295px !important;
+    }
+    .downpart{
+        margin-left: 46px !important;
+      }
+    
+}
+@media only screen and  (min-width:1524px) {
+    
+
+    .photoalbum img{
+        width:295px !important;
+    }
+
+    .downpart{
+        margin-left: 46px !important;
+      }
+    
+}
+@media only screen and  (min-width:1324px) {
+    
+
+    .photoalbum img{
+        width:295px !important;
+    }
+    .downpart{
+        margin-left: 46px !important;
+      }
+    
+}

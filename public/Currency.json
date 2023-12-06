@@ -1,0 +1,11 @@
+[
+	{
+		"symbol": "Tk",
+		"name": "Bangladeshi Taka",
+		"symbol_native": "৳",
+		"decimal_digits": 2,
+		"rounding": 0,
+		"code": "BDT",
+		"name_plural": "Bangladeshi takas"
+	}
+]

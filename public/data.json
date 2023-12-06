@@ -1,0 +1,9 @@
+[
+    {"img":"images/rice.jpeg", "productName": "Rice", "ProductPrice": "500", "rating": "4", "categories": "Food"},
+    {"img":"images/catfish.jpeg", "productName": "Catfish", "ProductPrice": "700", "rating": "5", "categories": "Fish"},
+    {"img":"images/carrot.jpeg", "productName": "Rice", "ProductPrice": "550", "rating": "3", "categories": "Food"},
+    {"img":"images/mango.jpeg", "productName": "Mango", "ProductPrice": "150", "rating": "5", "categories": "Food"},
+    {"img":"images/wheat.png", "productName": "Wheat", "ProductPrice": "900", "rating": "3", "categories": "Food"},
+    {"img":"images/carp.jpeg", "productName": "Carp", "ProductPrice": "450", "rating": "4", "categories": "Fish"}
+
+]

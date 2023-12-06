@@ -1,0 +1,78 @@
+.footer-area{
+    /* background-color: #1289A7; */
+    /* background-color: #182533; */
+    /* background-color: #7E2231; */
+    background-color: #032831;
+    /* position: fixed; */
+    width: 100%;
+    left: 0;
+    bottom: 0;
+
+    color: whitesmoke;
+}
+.footer-box h4{
+    font-size: 26px;
+    text-align: left;
+}
+.links ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.links ul li{
+    text-transform: capitalize;
+    text-align: left;
+    text-decoration: none;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: all .4s;
+    color: rgb(219, 219, 219);
+}
+.links ul li:hover{
+    color: white;
+    padding-left: 6px;
+    text-decoration: underline;
+}
+.link-icon{
+    font-size: 12px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+.subscribe-form input {
+    width: 100%;
+    outline: none;
+    border: none;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 2px;
+}
+.subscribe-form button {
+    width: 100%;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    font-weight: 600;
+    padding: 6px 0;
+    text-transform: capitalize;
+    color: #1289A7;
+    border-radius: 30px;
+    transition: all .4s;
+}
+.subscribe-form button:hover{
+    padding-left: 20px;
+}
+.horizontal-line{
+    height: 2px !important;
+}
+
+.social-icon{
+    font-size: 20px;
+    margin-right: 12px;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: all .4s;
+}
+.social-icon:hover{
+    transform: scale(1.5);
+}

@@ -1,0 +1,21 @@
+.week-design{
+    background-image: linear-gradient(to right,  #D0425C , #7E2231 );
+    padding:5px 108px !important;
+    color:white !important;
+    border-radius: 10px !important;
+}
+
+.sub-design{
+    background-image: linear-gradient(to right,  #274248 , #7E2231 );
+    padding:10px 128px !important;
+    color:white !important;
+    border-radius: 10px !important;
+}
+.schedule-background{
+    /* background-color: antiquewhite; */
+    background-color:whitesmoke;
+    padding: 10px;
+    border-radius: 8px;
+    /* margin-bottom: 10px; */
+}
+

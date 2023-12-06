@@ -1,0 +1,190 @@
+.photo img{
+    /* height:300px; */
+    transition: all .2s ease;
+}
+.project-designing_shop{
+    position: absolute;
+    bottom: 0;
+    margin: 0!important;
+    /* padding: 10px 8px!important; */
+    background-color: rgba(102,252,241,.75);
+    /* min-width: 100%; */
+    /* -webkit-transform: translateY(280px); */
+    transform: translateY(280px);
+    transition: all .5s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.photoData{
+    position: relative;
+    overflow: hidden;
+}
+.photoData:hover.photoShops{
+    transform:scale(1.5);
+    transition:transform 2s ease-in ;
+
+}
+.photoData:hover.designShop{
+    display:block;
+}
+.designShop{
+    position:absolute;
+    top:0;
+    display:none;
+    background-color: rgba(255, 228, 196, 0.575);
+}
+.starts{
+    /* border: 2px solid skyblue !important; */
+}
+.photoShops{
+    overflow: hidden;
+}
+.photoShops img{
+    transition: all 1.5s ease;
+}
+.photoShops:hover img{
+    transform: scale(1.5);
+}
+.likedesign{
+    color:black;
+}
+.likedesign:hover{
+    color:#D0425C;
+}
+
+.btn-style {
+    outline: none;
+    background-color: black;
+    border: 2px solid transparent;
+    color: white;
+    padding: 4px 20px;
+    font-weight: 600;
+    transition: all .5s;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+.download-btn{
+    text-decoration: none;
+}
+.btn-style.download-btn{
+    /* background-color: white; */
+    /* color: #1289A7; */
+    background-color: black;
+    /* background-color: #1f2833;; */
+    /* border: 2px solid white; */
+    color:white;
+}
+.btn-style.download-btn:hover{
+    /* background-color: white; */
+    /* color: #1289A7; */
+    background-color:  #1f2833;
+    /* background-color: #1f2833;; */
+    /* border: 2px solid white; */
+    color:white;
+}
+
+
+.hitings{
+    margin-top: 110px;
+font-family: Montserrat;
+/* font-style: normal; */
+font-weight: 600;
+font-size: 50px;
+
+margin-bottom: 60px;
+}
+
+.viewmore{
+    margin-top: 20px;
+    font-size: 23px;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.viewmore:hover{
+    color:white;
+    background-color:#2B5278;
+}
+
+.details-show{
+  margin-left: 40px;
+}
+
+.details-button{
+    padding:"15px 30px"
+}
+
+@media (max-width:768px) {
+    .details-show {
+        margin-left: 110px;
+    }
+    .photoShops img{
+        height:200px;
+        width:380px;
+    }
+
+    
+}
+@media (max-width:1000px) {
+    .details-show {
+        margin-left: 10px;
+    }
+    .photoShops img{
+        height:220px;
+        width:370px;
+    }
+
+    
+}
+@media (max-width:1024px) {
+    .details-show {
+        margin-left: 5px;
+    }
+    .photoShops img{
+        height:220px;
+        width:200px;
+    }
+
+    
+}
+@media (max-width:912px) {
+    .details-show {
+        /* margin-left: 5px; */
+    }
+    .photoShops img{
+        height:220px;
+        width:180px;
+    }
+
+    
+}
+@media (max-width:540px) {
+    .details-show {
+        /* margin-left: 60px; */
+    }
+    .photoShops img{
+        height:220px;
+        width:330px;
+    }
+
+   
+    
+}
+@media (max-width:360px) {
+    .details-show {
+        margin-left: 60px;
+    }
+    .photoShops img{
+        height:220px;
+        width:310px;
+    }
+
+    
+}
